@@ -8,6 +8,7 @@ class transaction extends uvm_object;
   bit[3:0]addr;
   bit[7:0]data;
   
+  
   function new (string name="transaction");
     super.new(name);
   endfunction
